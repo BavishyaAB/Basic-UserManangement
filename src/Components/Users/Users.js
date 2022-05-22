@@ -7,7 +7,7 @@ function Users(){
     const [users,setUsers] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [search,setSearch] = useState('');
-    const [showSearch,setShowSearch] = useState(false);
+    const [showSearch,setShowSearch] = useState(search===''?false:true);
     const [searchResult,setSearchResult] = useState({});
     const [isAscending,setSortAscending] = useState(false);
     const [paginatedUsers,setPaginatedUsers] = useState([]);
@@ -89,7 +89,6 @@ function Users(){
         if(showSearch){
             console.log("inside search");
             console.log(searchResult);
-            setSearch('');
             return (
                 searchResult.map(result => <UserPage data={result}/>)
             )

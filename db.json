@@ -1199,6 +1199,18 @@
       "email": "arlene_klusman@gmail.com",
       "web": "http://www.beckhorizonbuilders.com",
       "age": 70
+    },
+    {
+      "first_name": "Bavishya",
+      "last_name": "A B",
+      "company_name": "Solartis",
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "zip": "625003",
+      "email": "bavishya1399@gmail.com",
+      "web": "https://bavishya.netlify.app",
+      "age": "23",
+      "id": 101
     }
   ]
 }
